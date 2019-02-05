@@ -8,6 +8,9 @@ class SpeechRecognition:
     def __init__(self):
         self.command = 0
         self.config = Decoder.default_config()
+        
+        #Paste the directory of your pocketsphinx root folder
+        
         self.config.set_string('-hmm',
                                './pocketsphinx-master/model/en-us/en-us/')
         self.config.set_string('-lm', './6464.lm')
