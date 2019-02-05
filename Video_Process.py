@@ -1,6 +1,6 @@
 import cv2
-import ImageTk
-import Image
+from PIL import ImageTk
+from PIL import Image
 import numpy as np
 from Filter import *
 import os
